@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | My Portfolio</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background:#f4f6f8; color:#2c3e50; line-height:1.6; }
+
+    /* Nav (consistent with other pages) */
+    nav { background:#2c3e50; color:#fff; padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; }
+    nav .logo { font-size:1.5rem; font-weight:bold; }
+    nav ul { list-style:none; display:flex; gap:1.5rem; }
+    nav ul li a { color:#fff; text-decoration:none; transition:color .3s; }
+    nav ul li a:hover { color:#1abc9c; }
+
+    .container { max-width:700px; margin:2rem auto; padding:0 1rem; }
+
+    .box {
+      background:#fff;
+      border-radius:10px;
+      padding:2rem;
+      box-shadow:0 4px 6px rgba(0,0,0,0.1);
+      text-align:center;
+    }
+
+    .box h2 { margin-bottom:1rem; color:#16a085; }
+
+    .contact-info { font-size:1.1rem; margin-top:1rem; }
+    .contact-info p { margin:0.5rem 0; }
+
+    .contact-info a {
+      color:#1abc9c;
+      text-decoration:none;
+      transition:color .3s;
+    }
+    .contact-info a:hover { color:#16a085; }
+
+    /* Buttons */
+    .buttons {
+      margin-top:1.5rem;
+      display:flex;
+      justify-content:center;
+      gap:1rem;
+      flex-wrap:wrap;
+    }
+
+    .btn {
+      display:inline-block;
+      background:#1abc9c;
+      color:#fff;
+      text-decoration:none;
+      padding:0.7rem 1.2rem;
+      border-radius:6px;
+      transition:background .25s;
+      min-width:120px;
+      text-align:center;
+      font-weight:500;
+    }
+
+    .btn:hover { background:#16a085; }
+
+    footer {
+      background:#2c3e50;
+      color:#ecf0f1;
+      text-align:center;
+      padding:1rem;
+      margin-top:2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">My Portfolio</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="papers.html">Papers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Card -->
+  <div class="container">
+    <div class="box">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p><strong>Name:</strong> Ethan Buenting</p>
+        <p><strong>Phone:</strong> (515) 571-8388</p>
+        <p><strong>Email:</strong> <a href="mailto:ethanbuenting@gmail.com">ethanbuenting@gmail.com</a></p>
+      </div>
+
+      <!-- Buttons for socials -->
+      <div class="buttons">
+        <a href="https://www.linkedin.com/in/ethan-buenting-236210291/" target="_blank" rel="noopener" class="btn">LinkedIn</a>
+        <a href="https://github.com/Ethan-Buenting" target="_blank" rel="noopener" class="btn">GitHub</a>
+        <a href="pdfs/resume.pdf" target="_blank" rel="noopener" class="btn">Resume</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ethan Buenting. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
